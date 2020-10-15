@@ -4,23 +4,16 @@
             <link rel="stylesheet" href="style.css">
 
             <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script>
+                  $(function(){
+                        $("#header").load("header.html");
+                  });
+            </script>
       </head>
       <body>
             <div id="container">
-                  <div id="header">
-                        <a href="index.html" class="element">
-                              <img id="headericon" src="img/trueshuffleheadericon.png"/>
-                        </a>
-                        <a href="index.html" class="element">
-                              <b>About</b>
-                        </a>
-                        <a href="playlists.html" class="element">
-                              <b>Playlists</b>
-                        </a>
-                        <a href="/login" class="element" id="loginButton">
-                              <b>Log in</b>
-                        </a>
-                  </div>
+                  <div id="header"></div>
                   <div id="body">
                         <p>Playlists!</p>
                   </div>

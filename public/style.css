@@ -20,6 +20,10 @@ body {
       border-bottom: 5px solid rgb(0, 230, 0);
 }
 
+.hidden {
+      display: none;
+}
+
 #header {
       height: 60px;
       width: 100%;
@@ -31,16 +35,16 @@ body {
       height: 50px;
 }
 
-#loginButton {
+#loginElement {
       float: right;
 }
 
-#loginButton > * {
+#loginElement > * {
       border-radius: 3px;
       background-color: rgb(0, 230, 0);
 }
 
-#loginButton > b {
+#loginElement > b {
       padding: 5px 10px 5px 10px;
 }
 
